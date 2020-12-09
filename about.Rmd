@@ -1,10 +1,16 @@
 ---
 title: "About this site"
 description: |
-  Some additional details about the website
+  Add issues to https://github.com/DrMattG/BioDataSources
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+This site takes the database from Stephenson & Stengel 2020- An inventory of biodiversity data sources for conservation monitoring (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0242923) and presents it in an interactive website. The reason that I have quickly built this website is that the database was only available as a pdf (from https://www.speciesmonitoring.org/data-sources.html) or a word file from the paper. I find gathering datasets difficult and any tools that make it easier are welcome. I have added the a link to each site and a sortable coloumn showing "where at least some data (or mapping of data) appear to be instantly, freely and openly available".
+
+# Cavet
+
+This site scrapes the word file from the original paper and will therefore not update with new changes in the database. If https://www.speciesmonitoring.org/ are interested in this site I can do a little bit more work to automate the updates as they are relased by them. 
 
